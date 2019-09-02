@@ -23,4 +23,7 @@
 -(void)test1{
     NSLog(@"");
 }
+-(void)test2{
+    NSLog(@"");
+}
 @end
