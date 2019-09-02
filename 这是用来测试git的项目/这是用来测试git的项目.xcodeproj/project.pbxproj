@@ -13,6 +13,8 @@
 		3D4C538B231CBCBB00EBA36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4C538A231CBCBB00EBA36E /* Assets.xcassets */; };
 		3D4C538E231CBCBB00EBA36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4C538C231CBCBB00EBA36E /* LaunchScreen.storyboard */; };
 		3D4C5391231CBCBB00EBA36E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C5390231CBCBB00EBA36E /* main.m */; };
+		3D4C539B231CCA2600EBA36E /* AppDelegate+APPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C539A231CCA2600EBA36E /* AppDelegate+APPServer.m */; };
+		3D4C539E231CCA3700EBA36E /* AppDelegate+APPPushServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C539D231CCA3700EBA36E /* AppDelegate+APPPushServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3D4C538D231CBCBB00EBA36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D4C538F231CBCBB00EBA36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4C5390231CBCBB00EBA36E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D4C5399231CCA2600EBA36E /* AppDelegate+APPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+APPServer.h"; sourceTree = "<group>"; };
+		3D4C539A231CCA2600EBA36E /* AppDelegate+APPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+APPServer.m"; sourceTree = "<group>"; };
+		3D4C539C231CCA3700EBA36E /* AppDelegate+APPPushServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+APPPushServer.h"; sourceTree = "<group>"; };
+		3D4C539D231CCA3700EBA36E /* AppDelegate+APPPushServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+APPPushServer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,8 @@
 		3D4C5380231CBCB900EBA36E /* 这是用来测试git的项目 */ = {
 			isa = PBXGroup;
 			children = (
-				3D4C5381231CBCB900EBA36E /* AppDelegate.h */,
-				3D4C5382231CBCB900EBA36E /* AppDelegate.m */,
+				3D4C5398231CC9B100EBA36E /* BaseClass(基类) */,
+				3D4C5397231CC93400EBA36E /* Appdelegate */,
 				3D4C5384231CBCB900EBA36E /* ViewController.h */,
 				3D4C5385231CBCB900EBA36E /* ViewController.m */,
 				3D4C5387231CBCB900EBA36E /* Main.storyboard */,
@@ -69,6 +75,26 @@
 				3D4C5390231CBCBB00EBA36E /* main.m */,
 			);
 			path = "这是用来测试git的项目";
+			sourceTree = "<group>";
+		};
+		3D4C5397231CC93400EBA36E /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3D4C5381231CBCB900EBA36E /* AppDelegate.h */,
+				3D4C5382231CBCB900EBA36E /* AppDelegate.m */,
+				3D4C5399231CCA2600EBA36E /* AppDelegate+APPServer.h */,
+				3D4C539A231CCA2600EBA36E /* AppDelegate+APPServer.m */,
+				3D4C539C231CCA3700EBA36E /* AppDelegate+APPPushServer.h */,
+				3D4C539D231CCA3700EBA36E /* AppDelegate+APPPushServer.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		3D4C5398231CC9B100EBA36E /* BaseClass(基类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "BaseClass(基类)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D4C5386231CBCB900EBA36E /* ViewController.m in Sources */,
+				3D4C539B231CCA2600EBA36E /* AppDelegate+APPServer.m in Sources */,
+				3D4C539E231CCA3700EBA36E /* AppDelegate+APPPushServer.m in Sources */,
 				3D4C5391231CBCBB00EBA36E /* main.m in Sources */,
 				3D4C5383231CBCB900EBA36E /* AppDelegate.m in Sources */,
 			);
